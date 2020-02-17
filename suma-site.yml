@@ -106,13 +106,13 @@ content:
   #- url: .
 
   # Uncomment to build from the remote github repository.
-  #- url: https://github.com/SUSE/doc-susemanager.git
+  - url: https://github.com/uyuni-project/uyuni-docs.git
 
     # To build locally ensure you have your current local branch listed.
     branches:
     #- '.'
     #- manager-4.0
-    - manager-4.1-beta1
+    - 'manager-4.1-beta1'
 ui:
   bundle:
     # Choose a default-ui to use

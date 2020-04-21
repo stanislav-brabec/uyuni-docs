@@ -113,7 +113,7 @@ content:
     branches:
     #- '.'
     #- manager-4.0
-      - manager-4.0.4
+      - 'manager-4.0-MU-4.0.4'
 ui:
   bundle:
     # Choose a default-ui to use

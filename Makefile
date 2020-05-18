@@ -335,11 +335,6 @@ pdf-architecture-suma: modules/architecture/nav-architecture-guide.pdf.adoc
 	$(call pdf-architecture-product,$(PDF_THEME_SUMA),$(PRODUCTNAME_SUMA),$(SUMA_CONTENT),$(FILENAME_SUMA))
 
 
-
-.PHONY: modules/quickstart-public-cloud/nav-quickstart-public-cloud-guide.pdf.adoc
-modules/quickstart-public-cloud/nav-quickstart-public-cloud-guide.pdf.adoc:
-	$(call pdf-book-create-index,quickstart-public-cloud)
-
 .PHONY: pdf-quickstart-public-cloud-suma
 ## Generate PDF version of the SUMA Quickstart Guide for Public Cloud
 pdf-quickstart-public-cloud-suma: modules/quickstart-public-cloud/nav-quickstart-public-cloud-guide.pdf.adoc

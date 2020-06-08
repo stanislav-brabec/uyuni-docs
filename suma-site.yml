@@ -20,8 +20,8 @@ asciidoc:
     productname: 'SUSE Manager'
     productnumber: '4.0'
     docversion: '4.0'
-    minorversion402: '4.0.4'
-    saltversion: 2019.2.0
+    minorversion402: '4.0.7'
+    saltversion: 3000
     sles-version: 15
     sp-version: SP1 #use for normal text
     sp-vert: sp1 #use for terminal block
@@ -103,15 +103,15 @@ content:
   sources:
 
   # Uncomment to build from your local git clone
-  #- url: .
+  - url: .
 
   # Uncomment to build from the remote github repository.
-  - url: https://github.com/uyuni-project/uyuni-docs
+  #- url: https://github.com/uyuni-project/uyuni-docs
 
     # To build locally ensure you have your current local branch listed.
     branches:
-    #- '.'
-    - 'manager-4.0'
+    - '.'
+    #- 'manager-4.0'
 
 ui:
   bundle:

@@ -27,7 +27,7 @@
 :susemgrproxy: SUSE Manager Proxy
 :productnumber: 4.0
 :docversion: 4.0
-:saltversion: 2019.2.0
+:saltversion: 3000
 :webui: Web UI
 :sles-version: 15
 :sp-version: SP1

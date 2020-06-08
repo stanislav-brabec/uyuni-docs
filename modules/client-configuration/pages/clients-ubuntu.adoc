@@ -1,9 +1,17 @@
 [[clients-ubuntu]]
-= Registering {ubuntu} Clients
+= Registering {ubuntu} 20.04 Clients
 
-This section contains information about registering Salt clients running {ubuntu} operating systems.
+This section contains information about registering Salt clients running {ubuntu} 20.04 LTS operating systems.
 
+ifeval::[{suma-content} == true]
+{productname} supports {ubuntu} 16.04 LTS, 18.04 LTS, and 20.04 LTS clients using Salt.
+For information about registering Salt clients running {ubuntu} 16.04 LTS and 18.04 LTS, see xref:client-configuration/clients-ubuntu-old.adoc[].
+endif::[]
+
+<<<<<<< HEAD
 {susemgr} supports {ubuntu} 16.04 LTS and 18.04 LTS Clients using Salt.
+=======
+>>>>>>> 4fd527fc... Updates for Ubuntu 20.04 (#243)
 Traditional clients are not supported.
 
 [IMPORTANT]
@@ -39,35 +47,32 @@ Some actions are not yet supported:
 
 
 
+
 == Prepare to Register
 
 Some preparation is required before you can register {ubuntu} clients to the {productname} Server.
 
-ifeval::[{suma-content} == true]
 
-.Procedure: Adding client tools channels
+ifeval::[{suma-content} == true]
+.Procedure: Adding Client Tools Channels
 
 Before you begin, ensure you have the {ubuntu} product enabled, and have synchronized the {ubuntu} channels for {scc}:
 
+<<<<<<< HEAD
 For {ubuntu} 16.04:
+=======
+You can do this from {webui} or using command prompt, at your choice.
 
-* From the {webui}, add [systemitem]``Ubuntu 16.04`` and [systemitem]``SUSE Linux Enterprise Client Tools Ubuntu 1604 amd64``.
-* From the command prompt, add [systemitem]``ubuntu-16.04-pool-amd64`` and [systemitem]``ubuntu-16.04-suse-manager-tools-amd64``.
+For {ubuntu} 20.04:
+>>>>>>> 4fd527fc... Updates for Ubuntu 20.04 (#243)
 
-For {ubuntu} 18.04:
-
-* From the {webui}, add [systemitem]``Ubuntu 18.04`` and [systemitem]``SUSE Linux Enterprise Client Tools Ubuntu 1804 amd64``.
-* From the command prompt, add [systemitem]``ubuntu-18.04-pool-amd64`` and [systemitem]``ubuntu-18.04-suse-manager-tools-amd64``.
-
-[NOTE]
-====
-The mandatory channels do not contain {ubuntu} upstream packages.
-The repositories and channels for synchronizing upstream content must be configured manually.
-====
+* From the {webui}, add [systemitem]``Ubuntu 20.04`` and [systemitem]``SUSE Linux Enterprise Client Tools Ubuntu 2004 amd64``.
+* From the command prompt, add [systemitem]``ubuntu-20.04-pool-amd64`` and [systemitem]``ubuntu-20.04-suse-manager-tools-amd64``.
 
 In the {productname} {webui}, navigate to menu:Software[Channel List > All].
 Verify that you have a base channel and a child channel for your architecture.
 
+<<<<<<< HEAD
 For example:
 
 * Base channel: [systemitem]``ubuntu-18.04-pool for amd64``
@@ -110,11 +115,18 @@ endif::[]
 
 
 ifeval::[{uyuni-content} == true]
+=======
+For example, for {ubuntu} 20.04:
+
+* Base channel: [systemitem]``ubuntu-2004-amd64-main for amd64``
+* Child channel: [systemitem]``Ubuntu-20.04-SUSE-Manager-Tools for amd64``
+>>>>>>> 4fd527fc... Updates for Ubuntu 20.04 (#243)
 
 // Uyuni specific instructions, in fact this works at SUSE Manager as well, but spacewalk-common-channels script is NOT supported
 
 .Procedure: Adding the {ubuntu} Channels
 
+<<<<<<< HEAD
 . At the command prompt on the {productname} Server, as root, install the [systemitem]``spacewalk-utils`` package:
 +
 ----
@@ -131,8 +143,22 @@ ubuntu-1804-amd64-main-security-uyuni \
 ubuntu-1804-amd64-universe-uyuni \
 ubuntu-1804-amd64-universe-updates-uyuni \
 ubuntu-1804-amd64-uyuni-client
+=======
+. At the command prompt on the {productname} Server, as root, add the {ubuntu} channels.
+
+For {ubuntu} 20.04:
 ----
-. Synchronize the new custom channels.
+spacewalk-common-channels \
+ubuntu-2004-pool-amd64-uyuni \
+ubuntu-2004-amd64-main-uyuni \
+ubuntu-2004-amd64-main-updates-uyuni \
+ubuntu-2004-amd64-main-security-uyuni \
+ubuntu-2004-amd64-universe-uyuni \
+ubuntu-2004-amd64-universe-updates-uyuni \
+ubuntu-2004-amd64-uyuni-client
+>>>>>>> 4fd527fc... Updates for Ubuntu 20.04 (#243)
+----
+
 
 [IMPORTANT]
 ====
@@ -140,12 +166,20 @@ You need all the new channels fully syncronized, including Universe (Universe co
 ====
 endif::[]
 
+
 [NOTE]
 ====
 {ubuntu} channels can be very large.
 Synchronization can sometimes take several hours.
 ====
 
+<<<<<<< HEAD
+=======
+
+
+== Monitor Synchronization Progress
+
+>>>>>>> 4fd527fc... Updates for Ubuntu 20.04 (#243)
 There are two ways to check if a channel has finished synchronizing:
 
 * In the {productname} {webui}, navigate to menu:Admin[Setup Wizard] and select the [guimenu]``SUSE Products`` tab.
@@ -173,8 +207,8 @@ uyuni-gpg-pubkey-0d20833e.key
 
 You do not need to delete any previously stored keys.
 
-If you are boostrapping clients from the {productname} {webui}, you will need to use a salt state to trust the key.
-Create the salt state and assign it to the organization.
+If you are bootstrapping clients from the {productname} {webui}, you will need to use a Salt state to trust the key.
+Create the Salt state and assign it to the organization.
 You can then use an activation key and configuration channels to deploy the key to the clients.
 
 endif::[]
@@ -200,6 +234,16 @@ Grant [command]``sudo`` access to the user by adding this line to the [filename]
 <user>  ALL=NOPASSWD: /usr/bin/python, /usr/bin/python2, /usr/bin/python3
 ----
 
+<<<<<<< HEAD
+=======
+[NOTE]
+====
+This procedure grants root access without requiring a password, which is required for registering the client.
+When the client is successfully installed it will run with root privileges, so the access is no longer required.
+We recommend that you remove the line from the [path]``sudoers`` file after the client has been successfully installed.
+====
+
+>>>>>>> 4fd527fc... Updates for Ubuntu 20.04 (#243)
 
 
 == Register Clients
@@ -208,7 +252,7 @@ Grant [command]``sudo`` access to the user by adding this line to the [filename]
 Create the bootstrap repository at the command prompt, with this command:
 +
 ----
-mgr-create-bootstrap-repo --with-custom-channels
+mgr-create-bootstrap-repo
 ----
 
 For more information on registering your clients, see xref:client-configuration:registration-overview.adoc[].

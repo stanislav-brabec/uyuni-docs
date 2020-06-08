@@ -12,3 +12,5 @@
 * Combining activation keys works only with traditional clients.  Updated
   Client Configuration Guide and Reference. (bsc#1164451)
 
+- Added Ubuntu 20.04 to Client Configuration Guide
+

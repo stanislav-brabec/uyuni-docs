@@ -16,7 +16,7 @@ asciidoc:
     productname: 'SUSE Manager'
     productnumber: '4.1'
     docversion: '4.1'
-    minorversion402: '4.0.2'
+    minorversion402: '4.1.0'
     saltversion: 3000
     sles-version: 15
     sp-version: SP2 #use for normal text

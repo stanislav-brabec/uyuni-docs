@@ -99,6 +99,14 @@ asciidoc:
     caasp: SUSE CaaS Platform
     homepage: https://github.com/SUSE/doc-susemanager
 
+    # Table icon entities
+    check: 'icon:check[role="green"]'
+    cross: 'icon:times[role="danger"]'
+    question: 'icon:question[role="gray"]'
+    star: 'icon:asterisk[role="none"]'
+    salt: Salt
+    trad: Traditional
+
 content:
   sources:
 
@@ -121,7 +129,7 @@ ui:
     # - latest-bundle.zip (latest bundle for susecom with side toc and previous/next buttons on pages)
 
     # local git repo bundle for development
-    url: ./branding/default-ui/suma/suma-product.zip
+    url: ./branding/default-ui/suma/latest-bundle.zip
     snapshot: true
 
   # Choose a UI for your publishing endpoint

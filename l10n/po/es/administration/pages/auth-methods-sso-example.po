@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,11 +52,17 @@ msgid "Procedure: Setting Up the {productname} Server"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/auth-methods-sso-example.adoc:22
+#: modules/administration/pages/auth-methods-sso-example.adoc:21
 msgid ""
 "On the {productname} Server, open the [path]``/etc/rhn/rhn.conf`` "
-"configuration file and edit these parameters.  Replace ``<FQDN>`` with the "
-"fully-qualified domain name of your {productname} installation:"
+"configuration file and edit these parameters."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:22
+msgid ""
+"Replace ``<FQDN>`` with the fully-qualified domain name of your "
+"{productname} installation:"
 msgstr ""
 
 #. type: delimited block -
@@ -83,10 +89,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:36
+msgid "In the IdP metadata, locate the public x509 certificate."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/auth-methods-sso-example.adoc:39
 msgid ""
-"In the IdP metadata, locate the public x509 certificate.  It uses this "
-"format: ``<IdP_Address>/auth/realms/<Your_Realm>/protocol/saml/"
+"It uses this format: ``<IdP_Address>/auth/realms/<Your_Realm>/protocol/saml/"
 "descriptor``.  In the configuration file, specify the public x509 "
 "certificate of the IdP:"
 msgstr ""
@@ -141,9 +151,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:62
+msgid "In the ``Name`` field, enter a name for the realm."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/auth-methods-sso-example.adoc:63
-msgid ""
-"In the ``Name`` field, enter a name for the realm.  For example, ``SUMA``."
+msgid "For example, ``SUMA``."
 msgstr ""
 
 #. type: Plain text
@@ -151,11 +165,16 @@ msgstr ""
 msgid "Toggle the ``Enabled`` switch to ``On``."
 msgstr ""
 
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:65
+msgid ""
+"In the ``Endpoints`` field, type ``SAML 2.0 Identity Provider Metadata``."
+msgstr ""
+
 #.  Probably needs more explanation here. --LKB 20200415
 #. type: Plain text
 #: modules/administration/pages/auth-methods-sso-example.adoc:67
 msgid ""
-"In the ``Endpoints`` field, type ``SAML 2.0 Identity Provider Metadata``.  "
 "This endpoint is ``<IdP_Address>/auth/realms/<Realm_Name>/protocol/saml/"
 "descriptor`` which describes the endpoints and certificate in the "
 "{productname} configuration file."
@@ -180,11 +199,15 @@ msgid "In the Keycloak {webui}, create a new client using these details:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/auth-methods-sso-example.adoc:80
+#: modules/administration/pages/auth-methods-sso-example.adoc:79
 msgid ""
 "In the ``Client ID`` field, enter the endpoint specified in the server "
-"configuration file as ``java.sso.onelogin.saml2.idp.entityid``.  For "
-"example, ``https://<FQDN>/rhn/manager/sso/metadata``."
+"configuration file as ``java.sso.onelogin.saml2.idp.entityid``."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:80
+msgid "For example, ``https://<FQDN>/rhn/manager/sso/metadata``."
 msgstr ""
 
 #. type: Plain text
@@ -225,21 +248,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/auth-methods-sso-example.adoc:90
+#: modules/administration/pages/auth-methods-sso-example.adoc:89
 msgid ""
 "In both the ``Assertion Consumer Service`` fields, enter the endpoint "
 "specified in the server configuration file as ``java.sso.onelogin.saml2.sp."
-"assertion_consumer_service.url``.  For example, ``https://<FQDN>/rhn/manager/"
-"sso/acs``."
+"assertion_consumer_service.url``."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:90
+msgid "For example, ``https://<FQDN>/rhn/manager/sso/acs``."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:91
+msgid ""
+"In both the ``Logout Service`` fields, enter the endpoint specified in the "
+"server configuration file as ``java.sso.onelogin.saml2.sp."
+"single_logout_service.url``."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/auth-methods-sso-example.adoc:92
-msgid ""
-"In both the ``Logout Service`` fields, enter the endpoint specified in the "
-"server configuration file as ``java.sso.onelogin.saml2.sp."
-"single_logout_service.url``.  For example, ``https://<FQDN>/rhn/manager/sso/"
-"sls``."
+msgid "For example, ``https://<FQDN>/rhn/manager/sso/sls``."
 msgstr ""
 
 #. type: Plain text
@@ -263,19 +294,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/auth-methods-sso-example.adoc:103
+#: modules/administration/pages/auth-methods-sso-example.adoc:102
 msgid ""
 "Navigate to the menu:Clients[Mappers] tab and add a user attribute ``Uid`` "
-"mapper, using the default values.  This SAML attribute is expected by "
-"{productname}."
+"mapper, using the default values."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:103
+msgid "This SAML attribute is expected by {productname}."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:104
+msgid ""
+"Navigate to the menu:Users[Admin] section and create an administrative user."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/auth-methods-sso-example.adoc:105
-msgid ""
-"Navigate to the menu:Users[Admin] section and create an administrative "
-"user.  This user does not need to match the {productname} administrative "
-"user."
+msgid "This user does not need to match the {productname} administrative user."
 msgstr ""
 
 #. type: Plain text
@@ -292,10 +330,9 @@ msgid ""
 "used by the {productname} administrative user."
 msgstr ""
 
-#. type: Block title
-#: modules/administration/pages/auth-methods-sso-example.adoc:107
-#, no-wrap
-msgid " Save your changes."
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso-example.adoc:108
+msgid "Save your changes."
 msgstr ""
 
 #. type: Plain text

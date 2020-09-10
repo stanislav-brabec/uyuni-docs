@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:55+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,6 @@ msgstr ""
 
 #. type: Plain text
 #: ./modules/administration/pages/tshoot-registerclones.adoc:45
-#: ./modules/administration/pages/tshoot-registerclones.adoc:79
 msgid ""
 "On the cloned machine, change the hostname and IP addresses.  Make sure "
 "[path]``/etc/hosts`` contains the changes you made and the correct host "
@@ -154,17 +153,33 @@ msgid "# service salt-minion restart\n"
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/tshoot-registerclones.adoc:71
+msgid "Re-register the clients."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/tshoot-registerclones.adoc:72
 msgid ""
-"Re-register the clients.  Each client will now have a different "
-"[path]``/etc/machine-id`` and should be correctly displayed on the "
-"[guimenu]``System Overview`` page."
+"Each client will now have a different [path]``/etc/machine-id`` and should "
+"be correctly displayed on the [guimenu]``System Overview`` page."
 msgstr ""
 
 #. type: Block title
 #: ./modules/administration/pages/tshoot-registerclones.adoc:75
 #, no-wrap
 msgid "Procedure: Resolving Duplicate Machine IDs in Cloned Traditional Clients"
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/tshoot-registerclones.adoc:78
+msgid "On the cloned machine, change the hostname and IP addresses."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/tshoot-registerclones.adoc:79
+msgid ""
+"Make sure [path]``/etc/hosts`` contains the changes you made and the correct "
+"host entries."
 msgstr ""
 
 #. type: Plain text
@@ -283,7 +298,12 @@ msgstr ""
 
 #. type: Plain text
 #: ./modules/administration/pages/tshoot-registerclones.adoc:139
+msgid "Re-run the bootstrap script."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/tshoot-registerclones.adoc:139
 msgid ""
-"Re-run the bootstrap script.  You should now see the cloned system in "
-"{productname} without overriding the system it was cloned from."
+"You should now see the cloned system in {productname} without overriding the "
+"system it was cloned from."
 msgstr ""

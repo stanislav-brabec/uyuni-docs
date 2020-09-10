@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:55+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -39,11 +39,15 @@ msgid "Procedure: Enabling PAM"
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/auth-methods-pam.adoc:13
+msgid "Create a PAM service file at [path]``/etc/pam.d/susemanager``."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/auth-methods-pam.adoc:15
 msgid ""
-"Create a PAM service file at [path]``/etc/pam.d/susemanager``.  A standard "
-"[path]``/etc/pam.d/susemanager`` file should look like this.  It configures "
-"{productname} to use the system wide PAM configuration:"
+"A standard [path]``/etc/pam.d/susemanager`` file should look like this.  It "
+"configures {productname} to use the system wide PAM configuration:"
 msgstr ""
 
 #. type: delimited block -
@@ -89,10 +93,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/auth-methods-pam.adoc:33
+msgid "Check the [guimenu]``Pluggable Authentication Modules (PAM)`` checkbox."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/auth-methods-pam.adoc:34
-msgid ""
-"Check the [guimenu]``Pluggable Authentication Modules (PAM)`` checkbox.  It "
-"is below the password and password confirmation fields."
+msgid "It is below the password and password confirmation fields."
 msgstr ""
 
 #. type: delimited block =

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:55+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,11 +107,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/image-management.adoc:44
+#: ./modules/administration/pages/image-management.adoc:43
 msgid ""
 "A published git repository containing a dockerfile and configuration "
-"scripts.  The repository can be public or private, and should be hosted on "
-"GitHub, GitLab, or BitBucket."
+"scripts."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:44
+msgid ""
+"The repository can be public or private, and should be hosted on GitHub, "
+"GitLab, or BitBucket."
 msgstr ""
 
 #. type: Plain text
@@ -173,12 +179,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/image-management.adoc:77
+#: ./modules/administration/pages/image-management.adoc:75
 msgid ""
 "From the [guimenu]``System Details`` page of the selected client assign the "
-"containers modules.  Go to menu:Software[Software Channels] and enable the "
-"containers module (for example, [guimenu]``SLE-Module-Containers15-Pool`` "
-"and [guimenu]``SLE-Module-Containers15-Updates``).  Confirm by clicking "
+"containers modules."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:77
+msgid ""
+"Go to menu:Software[Software Channels] and enable the containers module (for "
+"example, [guimenu]``SLE-Module-Containers15-Pool`` and "
+"[guimenu]``SLE-Module-Containers15-Updates``).  Confirm by clicking "
 "btn:[Change Subscriptions]."
 msgstr ""
 
@@ -191,12 +203,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:79
+msgid "Install all required packages by applying ``Highstate``."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/image-management.adoc:81
 msgid ""
-"Install all required packages by applying ``Highstate``.  From the system "
-"details page select menu:States[Highstate] and click [guimenu]``Apply "
-"Highstate``.  Alternatively, apply Highstate from the {productname} Server "
-"command line:"
+"From the system details page select menu:States[Highstate] and click "
+"[guimenu]``Apply Highstate``.  Alternatively, apply Highstate from the "
+"{productname} Server command line:"
 msgstr ""
 
 #. type: delimited block -
@@ -245,11 +261,15 @@ msgid "Click btn:[Create Key]."
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:104
+msgid "Enter a [guimenu]``Description`` and a [guimenu]``Key`` name."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/image-management.adoc:105
 msgid ""
-"Enter a [guimenu]``Description`` and a [guimenu]``Key`` name.  Use the "
-"drop-down menu to select the [guimenu]``Base Channel`` to associate with "
-"this key."
+"Use the drop-down menu to select the [guimenu]``Base Channel`` to associate "
+"with this key."
 msgstr ""
 
 #. type: delimited block =
@@ -406,11 +426,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/image-management.adoc:176
+#: ./modules/administration/pages/image-management.adoc:174
 msgid ""
 "In the [guimenu]``Path`` field, type a GitHub, GitLab or BitBucket "
-"repository URL.  The URL should be be http, https, or a token authentication "
-"URL.  Use one of these formats:"
+"repository URL."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:176
+msgid ""
+"The URL should be be http, https, or a token authentication URL.  Use one of "
+"these formats:"
 msgstr ""
 
 #. type: Block title
@@ -876,12 +902,16 @@ msgid "SSH git access using Docker is currently unsupported."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/image-management.adoc:382
+#: ./modules/administration/pages/image-management.adoc:381
 msgid ""
 "If the [package]#python# and [package]#python-xml# packages are not "
 "installed in your images during the build process, reporting of installed "
-"packages or products will fail.  This will result in an ``unknown`` update "
-"status."
+"packages or products will fail."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:382
+msgid "This will result in an ``unknown`` update status."
 msgstr ""
 
 #. type: Title ==
@@ -1038,20 +1068,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/image-management.adoc:456
+#: ./modules/administration/pages/image-management.adoc:455
 msgid ""
 "{sles}{nbsp}15 build hosts require {sles} modules "
 "``SLE-Module-DevTools15-SP2-Pool`` and "
-"``SLE-Module-DevTools15-SP2-Updates``.  Schedule and click btn:[Confirm]."
+"``SLE-Module-DevTools15-SP2-Updates``."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:456
+msgid "Schedule and click btn:[Confirm]."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:457
+msgid "Install Kiwi and all required packages by applying `Highstate`."
 msgstr ""
 
 #. type: Plain text
 #: ./modules/administration/pages/image-management.adoc:459
 msgid ""
-"Install Kiwi and all required packages by applying `Highstate`.  From the "
-"system details page select menu:States[Highstate] and click btn:[Apply "
-"Highstate].  Alternatively, apply Highstate from the {productname} Server "
-"command line:"
+"From the system details page select menu:States[Highstate] and click "
+"btn:[Apply Highstate].  Alternatively, apply Highstate from the "
+"{productname} Server command line:"
 msgstr ""
 
 #. type: Block title
@@ -1277,10 +1316,15 @@ msgid "Path to build host local directory"
 msgstr ""
 
 #. type: delimited block =
+#: ./modules/administration/pages/image-management.adoc:571
+msgid "Select an [guimenu]``Activation Key``."
+msgstr ""
+
+#. type: delimited block =
 #: ./modules/administration/pages/image-management.adoc:572
 msgid ""
-"Select an [guimenu]``Activation Key``.  Activation keys ensure that images "
-"using a profile are assigned to the correct channel and packages."
+"Activation keys ensure that images using a profile are assigned to the "
+"correct channel and packages."
 msgstr ""
 
 #. type: Plain text
@@ -1606,11 +1650,16 @@ msgid "The build sources used are valid"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/image-management.adoc:768
+#: ./modules/administration/pages/image-management.adoc:767
 msgid ""
 "The RPM package with the {productname} public certificate is up to date and "
 "available at "
-"`/usr/share/susemanager/salt/images/rhn-org-trusted-ssl-cert-osimage-1.0-1.noarch.rpm`.  "
+"`/usr/share/susemanager/salt/images/rhn-org-trusted-ssl-cert-osimage-1.0-1.noarch.rpm`."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/image-management.adoc:768
+msgid ""
 "For more on how to refresh a public certificate RPM, see "
 "<<at.images.kiwi.buildhost>>."
 msgstr ""

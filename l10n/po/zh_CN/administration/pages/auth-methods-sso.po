@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -151,27 +151,43 @@ msgid "You will need these endpoints:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/auth-methods-sso.adoc:55
+#: modules/administration/pages/auth-methods-sso.adoc:54
 msgid ""
 "Assertion consumer service (or ACS): an endpoint to accept SAML messages to "
-"establish a session into the Service Provider.  The endpoint for ACS in "
-"{productname} is: https://server.example.com/rhn/manager/sso/acs"
+"establish a session into the Service Provider."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso.adoc:55
+msgid ""
+"The endpoint for ACS in {productname} is: https://server.example.com/rhn/"
+"manager/sso/acs"
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso.adoc:56
+msgid ""
+"Single logout service (or SLS): an endpoint to initiate a logout request "
+"from the IdP."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/auth-methods-sso.adoc:57
 msgid ""
-"Single logout service (or SLS): an endpoint to initiate a logout request "
-"from the IdP.  The endpoint for SLS in {productname} is: https://server."
-"example.com/rhn/manager/sso/sls"
+"The endpoint for SLS in {productname} is: https://server.example.com/rhn/"
+"manager/sso/sls"
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso.adoc:58
+msgid "Metadata: an endpoint to retrieve {productname} metadata for SAML."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/auth-methods-sso.adoc:59
 msgid ""
-"Metadata: an endpoint to retrieve {productname} metadata for SAML.  The "
-"endpoint for metadata in {productname} is: https://server.example.com/rhn/"
-"manager/sso/metadata"
+"The endpoint for metadata in {productname} is: https://server.example.com/"
+"rhn/manager/sso/metadata"
 msgstr ""
 
 #. type: Plain text
@@ -219,13 +235,18 @@ msgid "java.sso = true\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/auth-methods-sso.adoc:83
+#: modules/administration/pages/auth-methods-sso.adoc:81
 msgid ""
 "Find the parameters you want to customize in [path]``/usr/share/rhn/config-"
-"defaults/rhn_java_sso.conf``.  Insert the parameters you want to customize "
-"into [path]``/etc/rhn/rhn.conf`` and prefix them with [literal]``java."
-"sso``.  For example, in [path]``/usr/share/rhn/config-defaults/rhn_java_sso."
-"conf`` find:"
+"defaults/rhn_java_sso.conf``."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/auth-methods-sso.adoc:83
+msgid ""
+"Insert the parameters you want to customize into [path]``/etc/rhn/rhn.conf`` "
+"and prefix them with [literal]``java.sso``.  For example, in [path]``/usr/"
+"share/rhn/config-defaults/rhn_java_sso.conf`` find:"
 msgstr ""
 
 #. type: delimited block -

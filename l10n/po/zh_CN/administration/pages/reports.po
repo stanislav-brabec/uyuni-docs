@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -57,11 +57,15 @@ msgid "System Inventory: list all the systems registered to {productname}."
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/reports.adoc:16
+msgid "Patches: list all the patches relevant to the registered systems."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/reports.adoc:17
 msgid ""
-"Patches: list all the patches relevant to the registered systems.  You can "
-"sort patches by severity, as well as the systems that apply to a particular "
-"patch."
+"You can sort patches by severity, as well as the systems that apply to a "
+"particular patch."
 msgstr ""
 
 #. type: Plain text
@@ -105,7 +109,7 @@ msgid ""
 "| Activation Keys: Channels | [command]``activation-keys-channels`` | All activation keys and the entities associated with each key.\n"
 "| Activation Keys: Configuration | [command]``activation-keys-config`` | All activation keys and the configuration channels associated with each key.\n"
 "| Activation Keys: Server Groups | [command]``activation-keys-groups`` | All activation keys and the system groups associated with each key.\n"
-"| Activation Keys: Packages | [command]``activation-keys-packages`` | All activation keys and the packages each key can deploy.\n"
+"| Activation Keys: Packages | [command]``activation-keys-packages`` | All activation keys and the packages each key can deploy.\n"
 "| Channel Packages | [command]``channel-packages`` | All packages in a channel.\n"
 "| Channel Report | [command]``channels`` | Detailed report of a given channel.\n"
 "| Cloned Channel Report | [command]``cloned-channels`` | Detailed report of cloned channels.\n"
@@ -129,8 +133,8 @@ msgid ""
 "| Result of SCAP | [command]``scap-scan`` | Result of OpenSCAP ``sccdf`` evaluations.\n"
 "| Result of SCAP | [command]``scap-scan-results`` | Result of OpenSCAP ``sccdf`` evaluations, in a different format.\n"
 "| System Data | [command]``splice-export`` | Client data needed for splice integration.\n"
-"| System Crash: Count | [command]``system-crash-count`` | The total number of client crashes.\n"
-"| System Crash: Details | [command]``system-crash-details`` | Crash details for all clients.\n"
+"| System Crash: Count | [command]``system-crash-count`` | The total number of client crashes.\n"
+"| System Crash: Details | [command]``system-crash-details`` | Crash details for all clients.\n"
 "| System Currency | [command]``system-currency`` | Number of available patches for each registered client.\n"
 "| System Extra Packages | [command]``system-extra-packages`` | All packages installed on all clients that are not available from channels the client is subscribed to.\n"
 "| System Groups | [command]``system-groups`` | System groups.\n"

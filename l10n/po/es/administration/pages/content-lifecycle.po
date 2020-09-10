@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,11 +93,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/content-lifecycle.adoc:29
+msgid "In the [guimenu]``Label`` field, enter a label for your project."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/content-lifecycle.adoc:30
 msgid ""
-"In the [guimenu]``Label`` field, enter a label for your project.  The "
-"[guimenu]``Label`` field only accepts lowercase letters, numbers, periods, "
-"hyphens, and underscores."
+"The [guimenu]``Label`` field only accepts lowercase letters, numbers, "
+"periods, hyphens, and underscores."
 msgstr ""
 
 #. type: Plain text
@@ -119,19 +123,29 @@ msgid "Click btn:[Attach/Detach Sources]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:35
+#: modules/administration/pages/content-lifecycle.adoc:34
 msgid ""
 "In the [guimenu]``Sources`` dialog, select the source type, and select a "
-"base channel for your project.  The available child channels for the "
-"selected base channel are displayed, including information on whether the "
-"channel is mandatory or recommended."
+"base channel for your project."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/content-lifecycle.adoc:35
+msgid ""
+"The available child channels for the selected base channel are displayed, "
+"including information on whether the channel is mandatory or recommended."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/content-lifecycle.adoc:36
+msgid ""
+"Check the child channels you require, and click btn:[Save] to return to the "
+"project page."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/content-lifecycle.adoc:37
-msgid ""
-"Check the child channels you require, and click btn:[Save] to return to the "
-"project page.  The software channels you selected should now be showing."
+msgid "The software channels you selected should now be showing."
 msgstr ""
 
 #. type: Plain text
@@ -140,10 +154,15 @@ msgid "Click btn:[Attach/Detach Filters]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:40
+#: modules/administration/pages/content-lifecycle.adoc:39
 msgid ""
 "In the [guimenu]``Filters`` dialog, select the filters you want to attach to "
-"the project.  To create a new filter, click btn:[Create new Filter]."
+"the project."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/content-lifecycle.adoc:40
+msgid "To create a new filter, click btn:[Create new Filter]."
 msgstr ""
 
 #. type: Plain text
@@ -152,20 +171,31 @@ msgid "Click btn:[Add Environment]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/content-lifecycle.adoc:43
+#: modules/administration/pages/content-lifecycle.adoc:42
 msgid ""
 "In the [guimenu]``Environment Lifecycle`` dialog, give the first environment "
-"a name and a description, and click btn:[Save].  The [guimenu]``Name`` field "
-"only accepts lowercase letters, numbers, periods, hyphens, and underscores."
+"a name and a description, and click btn:[Save]."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/content-lifecycle.adoc:43
+msgid ""
+"The [guimenu]``Name`` field only accepts lowercase letters, numbers, "
+"periods, hyphens, and underscores."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/content-lifecycle.adoc:44
+msgid ""
+"Continue creating environments until you have all the environments for your "
+"lifecycle completed."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/content-lifecycle.adoc:45
 msgid ""
-"Continue creating environments until you have all the environments for your "
-"lifecycle completed.  You can select the order of the environments in the "
-"lifecycle by selecting an environment in the [guimenu]``Insert before`` "
-"field when you create it."
+"You can select the order of the environments in the lifecycle by selecting "
+"an environment in the [guimenu]``Insert before`` field when you create it."
 msgstr ""
 
 #. type: Title ==

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -199,13 +199,19 @@ msgid "Procedure: Assigning a Schedule to a Client"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:66
+#: modules/administration/pages/maintenance-windows.adoc:65
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Systems List], select "
 "the client to be assigned to a schedule, locate the [guimenu]``System "
-"Properties`` panel, and click btn:[Edit These Properties].  Alternatively, "
-"you can assign clients through the system set manager by navigating to menu:"
-"Systems[System Set Manager] and using the menu:Misc[Maintenance Windows] tab."
+"Properties`` panel, and click btn:[Edit These Properties]."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/maintenance-windows.adoc:66
+msgid ""
+"Alternatively, you can assign clients through the system set manager by "
+"navigating to menu:Systems[System Set Manager] and using the menu:"
+"Misc[Maintenance Windows] tab."
 msgstr ""
 
 #. type: Plain text
@@ -320,10 +326,14 @@ msgid "Procedure: Creating a Multi Schedule"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:110
+#: modules/administration/pages/maintenance-windows.adoc:109
 msgid ""
-"In the [guimenu]``Schedule Name`` section, type the name for your schedule.  "
-"Ensure it matches the ``summary`` field of the calendar."
+"In the [guimenu]``Schedule Name`` section, type the name for your schedule."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/maintenance-windows.adoc:110
+msgid "Ensure it matches the ``summary`` field of the calendar."
 msgstr ""
 
 #. type: Plain text
@@ -338,10 +348,15 @@ msgid "To create the next schedule, click btn:[Create]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/maintenance-windows.adoc:116
+#: modules/administration/pages/maintenance-windows.adoc:115
 msgid ""
 "In the [guimenu]``Schedule Name`` section, type the name for your second "
-"schedule.  Ensure it matches the ``summary`` field of the second calendar."
+"schedule."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/maintenance-windows.adoc:116
+msgid "Ensure it matches the ``summary`` field of the second calendar."
 msgstr ""
 
 #. type: Plain text

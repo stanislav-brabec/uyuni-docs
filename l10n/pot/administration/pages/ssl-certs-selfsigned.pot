@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,11 +99,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/ssl-certs-selfsigned.adoc:36
+msgid "Install the RPM that contains the newly generated certificate."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/ssl-certs-selfsigned.adoc:38
 msgid ""
-"Install the RPM that contains the newly generated certificate.  Check that "
-"you have the latest version of the RPM before running this command.  The "
-"version number is incremented every time you re-create the certificates."
+"Check that you have the latest version of the RPM before running this "
+"command.  The version number is incremented every time you re-create the "
+"certificates."
 msgstr ""
 
 #. type: delimited block -
@@ -459,10 +464,15 @@ msgid "cp /root/combined-ssl-build/*.rpm /root/ssl-build/\n"
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/ssl-certs-selfsigned.adoc:200
+msgid "Generate a new RPM with from the new certificates."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/ssl-certs-selfsigned.adoc:201
 msgid ""
-"Generate a new RPM with from the new certificates.  Check the release number "
-"carefully to ensure you have the right certificate file:"
+"Check the release number carefully to ensure you have the right certificate "
+"file:"
 msgstr ""
 
 #. type: delimited block -

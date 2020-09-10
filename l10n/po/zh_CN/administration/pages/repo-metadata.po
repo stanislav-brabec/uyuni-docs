@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -48,19 +48,30 @@ msgid "gpg --gen-key\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/repo-metadata.adoc:18
+#: modules/administration/pages/repo-metadata.adoc:17
 msgid ""
 "At the prompts, select [systemitem]``RSA`` as the key type, with a size of "
-"2048 bits, and select an appropriate expiry date for your key.  Check the "
-"details for your new key, and type [systemitem]``y`` to confirm."
+"2048 bits, and select an appropriate expiry date for your key."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/repo-metadata.adoc:18
+msgid ""
+"Check the details for your new key, and type [systemitem]``y`` to confirm."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/repo-metadata.adoc:19
+msgid ""
+"At the prompts, enter a name and email address to be associated with your "
+"key."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/repo-metadata.adoc:21
 msgid ""
-"At the prompts, enter a name and email address to be associated with your "
-"key.  You can also add a comment to help you identify the key, if desired.  "
-"When you are happy with the user identity, type [systemitem]``O`` to confirm."
+"You can also add a comment to help you identify the key, if desired.  When "
+"you are happy with the user identity, type [systemitem]``O`` to confirm."
 msgstr ""
 
 #. type: Plain text
@@ -69,10 +80,13 @@ msgid "At the prompt, enter a passphrase to protect your key."
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/repo-metadata.adoc:23
+msgid "The key should be automatically added to your keyring."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/repo-metadata.adoc:24
-msgid ""
-"The key should be automatically added to your keyring.  You can check by "
-"listing the keys in your keyring:"
+msgid "You can check by listing the keys in your keyring:"
 msgstr ""
 
 #. type: delimited block -
@@ -109,10 +123,13 @@ msgid "Procedure: Enabling Metadata Signing"
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/repo-metadata.adoc:41
+msgid "You will need to know the short identifier for the key to use."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/repo-metadata.adoc:42
-msgid ""
-"You will need to know the short identifier for the key to use.  You can list "
-"your available public keys in short format:"
+msgid "You can list your available public keys in short format:"
 msgstr ""
 
 #. type: delimited block -
@@ -206,12 +223,17 @@ msgid "rpm --import http://server.example.com/pub/mgr-gpg-pub.key\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/repo-metadata.adoc:91
+#: modules/administration/pages/repo-metadata.adoc:90
 msgid ""
 "For Ubuntu clients, you will need to reassign the channels, which will "
-"automatically pick up the new GPG key.  You can do this through the "
-"{productname} {webui}, or from the command line on the server with this "
-"command:"
+"automatically pick up the new GPG key."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/repo-metadata.adoc:91
+msgid ""
+"You can do this through the {productname} {webui}, or from the command line "
+"on the server with this command:"
 msgstr ""
 
 #. type: delimited block -

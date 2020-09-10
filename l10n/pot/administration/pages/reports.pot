@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,11 +57,15 @@ msgid "System Inventory: list all the systems registered to {productname}."
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/reports.adoc:16
+msgid "Patches: list all the patches relevant to the registered systems."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/reports.adoc:17
 msgid ""
-"Patches: list all the patches relevant to the registered systems.  You can "
-"sort patches by severity, as well as the systems that apply to a particular "
-"patch."
+"You can sort patches by severity, as well as the systems that apply to a "
+"particular patch."
 msgstr ""
 
 #. type: Plain text
@@ -110,7 +114,7 @@ msgid ""
 "activation keys and the configuration channels associated with each key.\n"
 "| Activation Keys: Server Groups | [command]``activation-keys-groups`` | All "
 "activation keys and the system groups associated with each key.\n"
-"| Activation Keys: Packages | [command]``activation-keys-packages`` | All "
+"| Activation Keys: Packages | [command]``activation-keys-packages`` | All "
 "activation keys and the packages each key can deploy.\n"
 "| Channel Packages | [command]``channel-packages`` | All packages in a "
 "channel.\n"
@@ -156,9 +160,9 @@ msgid ""
 "``sccdf`` evaluations, in a different format.\n"
 "| System Data | [command]``splice-export`` | Client data needed for splice "
 "integration.\n"
-"| System Crash: Count | [command]``system-crash-count`` | The total number "
+"| System Crash: Count | [command]``system-crash-count`` | The total number "
 "of client crashes.\n"
-"| System Crash: Details | [command]``system-crash-details`` | Crash details "
+"| System Crash: Details | [command]``system-crash-details`` | Crash details "
 "for all clients.\n"
 "| System Currency | [command]``system-currency`` | Number of available "
 "patches for each registered client.\n"

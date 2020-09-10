@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:55+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -103,18 +103,27 @@ msgid "Choose the frequency of the recurring action:"
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/actions.adoc:31
+msgid "[guimenu]``Hourly:`` Type the minute of each hour."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/actions.adoc:32
 msgid ""
-"[guimenu]``Hourly:`` Type the minute of each hour.  For example, "
-"[parameter]``15`` will run the action at fifteen minutes past every hour."
+"For example, [parameter]``15`` will run the action at fifteen minutes past "
+"every hour."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:33
+msgid "[guimenu]``Daily:`` Select the time of each day."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/actions.adoc:34
 msgid ""
-"[guimenu]``Daily:`` Select the time of each day.  For example, "
-"[parameter]``01:00`` will run the action at 0100 every day, in the timezone "
-"of the {productname} Server."
+"For example, [parameter]``01:00`` will run the action at 0100 every day, in "
+"the timezone of the {productname} Server."
 msgstr ""
 
 #. type: Plain text
@@ -132,11 +141,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:38
+#: modules/administration/pages/actions.adoc:37
 msgid ""
 "[guimenu]``Custom Quartz format:`` For more detailed options, enter a custom "
-"quartz string.  For example, to run a recurring action at 0215 every "
-"Saturday of every month, enter:"
+"quartz string."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:38
+msgid ""
+"For example, to run a recurring action at 0215 every Saturday of every "
+"month, enter:"
 msgstr ""
 
 #. type: delimited block -
@@ -272,11 +287,17 @@ msgid "Procedure: Creating a New Action Chain"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:88
+#: modules/administration/pages/actions.adoc:87
 msgid ""
 "In the {productname} {webui}, navigate to the first action you want to "
-"perform in the action chain.  For example, navigate to [guimenu]``System "
-"Details`` for a client, and click btn:[Schedule System Reboot]."
+"perform in the action chain."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:88
+msgid ""
+"For example, navigate to [guimenu]``System Details`` for a client, and click "
+"btn:[Schedule System Reboot]."
 msgstr ""
 
 #. type: Plain text
@@ -285,11 +306,16 @@ msgid "Check the [guimenu]``Add to`` field and select ``new action chain``."
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/actions.adoc:90
+msgid "Confirm the action."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/actions.adoc:91
 msgid ""
-"Confirm the action.  This will not perform the action immediately, it will "
-"instead create the new action chain, and a blue bar confirming this appears "
-"at the top of the screen."
+"This will not perform the action immediately, it will instead create the new "
+"action chain, and a blue bar confirming this appears at the top of the "
+"screen."
 msgstr ""
 
 #. type: Plain text
@@ -307,19 +333,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:96
+#: modules/administration/pages/actions.adoc:94
 msgid ""
 "Re-order actions by dragging them and dropping them into the correct "
-"position.  Click the blue plus sign to see the clients an action will be "
-"performed on.  Click btn:[Save] to save your changes."
+"position."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:96
+msgid ""
+"Click the blue plus sign to see the clients an action will be performed on.  "
+"Click btn:[Save] to save your changes."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:97
+msgid ""
+"Schedule a time for your action chain to run, and click btn:[Save and "
+"Schedule]."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/actions.adoc:98
 msgid ""
-"Schedule a time for your action chain to run, and click btn:[Save and "
-"Schedule].  If you leave the page without clicking either btn:[Save] or btn:"
-"[Save and Schedule] all unsaved changes will be discarded."
+"If you leave the page without clicking either btn:[Save] or btn:[Save and "
+"Schedule] all unsaved changes will be discarded."
 msgstr ""
 
 #. type: delimited block =
@@ -376,12 +414,16 @@ msgid "Procedure: Configuring Traditional Clients to Accept Remote Commands"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:125
+#: modules/administration/pages/actions.adoc:124
 msgid ""
 "On the client, at the command prompt, use the package manager to install the "
 "[systemitem]``rhncfg``, [systemitem]``rhncfg-client``, and "
-"[systemitem]``rhncfg-actions`` packages, if not already installed.  For "
-"example:"
+"[systemitem]``rhncfg-actions`` packages, if not already installed."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:125
+msgid "For example:"
 msgstr ""
 
 #. type: delimited block -
@@ -404,10 +446,14 @@ msgid "mkdir -p /etc/sysconfig/rhn/allowed-actions/script\n"
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/actions.adoc:136
+msgid "Create an empty file called [path]``run`` in the new directory."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/actions.adoc:137
 msgid ""
-"Create an empty file called [path]``run`` in the new directory.  This file "
-"grants the {productname} Server permission to run remote commands:"
+"This file grants the {productname} Server permission to run remote commands:"
 msgstr ""
 
 #. type: delimited block -
@@ -448,20 +494,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:159
+#: modules/administration/pages/actions.adoc:158
 msgid ""
 "In the [guimenu]``Run as user`` field, type the user ID (UID) of the user on "
-"the client that you want to run the command.  Alternatively, you can specify "
-"a group to run the command, using the group ID (GID) in the [guimenu]``Run "
-"as group`` field."
+"the client that you want to run the command."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:159
+msgid ""
+"Alternatively, you can specify a group to run the command, using the group "
+"ID (GID) in the [guimenu]``Run as group`` field."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:160
+msgid ""
+"OPTIONAL: In the [guimenu]``Timeout`` field, type a timeout period for the "
+"command, in seconds."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/actions.adoc:161
-msgid ""
-"OPTIONAL: In the [guimenu]``Timeout`` field, type a timeout period for the "
-"command, in seconds.  If the command is not executed within this period, it "
-"will not be run."
+msgid "If the command is not executed within this period, it will not be run."
 msgstr ""
 
 #. type: Plain text
@@ -513,11 +568,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/actions.adoc:176
+#: modules/administration/pages/actions.adoc:175
 msgid ""
 "In the second field, after the ``@`` symbol, type the client you want to "
-"issue the command on.  You can type the ``minion-id`` of an individual "
-"client, or you can use wildcards to target a range of clients."
+"issue the command on."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/actions.adoc:176
+msgid ""
+"You can type the ``minion-id`` of an individual client, or you can use "
+"wildcards to target a range of clients."
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,12 +53,17 @@ msgid "Procedure: Resolving Corrupt Repository Data"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:30
+#: ./modules/administration/pages/tshoot-corruptrepo.adoc:29
 msgid ""
 "Remove all files from "
-"[path]``/var/cache/rhn/repodata/<channel-label>-updates-x86_64``.  If you do "
-"not know the channel label, you can find it in the {productname} {webui}, by "
-"navigating to menu:Software[Channels > Channel Label]."
+"[path]``/var/cache/rhn/repodata/<channel-label>-updates-x86_64``."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/tshoot-corruptrepo.adoc:30
+msgid ""
+"If you do not know the channel label, you can find it in the {productname} "
+"{webui}, by navigating to menu:Software[Channels > Channel Label]."
 msgstr ""
 
 #. type: Plain text

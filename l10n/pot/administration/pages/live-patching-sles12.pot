@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,10 +63,14 @@ msgid "The clients are fully synchronized."
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/live-patching-sles12.adoc:16
+msgid "Assign the clients to the cloned channels prepared for live patching."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/live-patching-sles12.adoc:17
 msgid ""
-"Assign the clients to the cloned channels prepared for live patching.  For "
-"more information on preparation, see "
+"For more information on preparation, see "
 "xref:administration:live-patching-channel-setup.adoc[]."
 msgstr ""
 
@@ -77,12 +81,16 @@ msgid "Procedure: Setting up for Live Patching"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/live-patching-sles12.adoc:24
+#: ./modules/administration/pages/live-patching-sles12.adoc:23
 msgid ""
 "Select the client you want to manage with Live Patching from "
 "menu:Systems[Overview], and on the system details page navigate to the "
-"menu:Software[Packages > Install] tab.  Search for the "
-"[systemitem]``kgraft`` package, and install it."
+"menu:Software[Packages > Install] tab."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/live-patching-sles12.adoc:24
+msgid "Search for the [systemitem]``kgraft`` package, and install it."
 msgstr ""
 
 #. type: Target for macro image
@@ -116,12 +124,15 @@ msgid "Procedure: Applying Live Patches to a Kernel"
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/live-patching-sles12.adoc:35
+msgid "In the {productname} {webui}, select the client from menu:Systems[Overview]."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/live-patching-sles12.adoc:36
 msgid ""
-"In the {productname} {webui}, select the client from "
-"menu:Systems[Overview].  You will see a banner at the top of the screen "
-"showing the number of critical and non-critical packages available for the "
-"client:"
+"You will see a banner at the top of the screen showing the number of "
+"critical and non-critical packages available for the client:"
 msgstr ""
 
 #. type: Target for macro image
@@ -136,11 +147,15 @@ msgid "Click btn:[Critical] to see a list of the available critical patches."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/live-patching-sles12.adoc:42
+#: ./modules/administration/pages/live-patching-sles12.adoc:41
 msgid ""
 "Select any patch with a synopsis reading [guimenu]``Important: Security "
-"update for the Linux kernel``.  Security bugs will also include their CVE "
-"number, where applicable."
+"update for the Linux kernel``."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/live-patching-sles12.adoc:42
+msgid "Security bugs will also include their CVE number, where applicable."
 msgstr ""
 
 #. type: Plain text

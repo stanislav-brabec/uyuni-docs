@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,21 +38,31 @@ msgid "There are two ways to manage channels for live patching:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/live-patching-channel-setup.adoc:13
+#: ./modules/administration/pages/live-patching-channel-setup.adoc:11
 msgid ""
 "Use content lifecycle management to clone the product tree and remove kernel "
-"versions newer than the running one.  This procedure is explained in the "
+"versions newer than the running one."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/live-patching-channel-setup.adoc:13
+msgid ""
+"This procedure is explained in the "
 "xref:content-lifecycle-examples.adoc#enhance-project-with-livepatching[Content "
 "Livecycle Management Examples].  This is the recommended solution."
 msgstr ""
 
 #. type: Plain text
+#: ./modules/administration/pages/live-patching-channel-setup.adoc:15
+msgid "Use the `spacewalk-manage-channel-lifecycle` tool."
+msgstr ""
+
+#. type: Plain text
 #: ./modules/administration/pages/live-patching-channel-setup.adoc:17
 msgid ""
-"Use the `spacewalk-manage-channel-lifecycle` tool.  This procedure is more "
-"manual and requires command line tools as well as the {webui}.  This "
-"procedure is explained in this section for SLES{nbsp}15 SP1, but it also "
-"works for SLE{nbsp}12 SP4 or later."
+"This procedure is more manual and requires command line tools as well as the "
+"{webui}.  This procedure is explained in this section for SLES{nbsp}15 SP1, "
+"but it also works for SLE{nbsp}12 SP4 or later."
 msgstr ""
 
 #. type: Title ==
@@ -147,12 +157,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/live-patching-channel-setup.adoc:59
+#: ./modules/administration/pages/live-patching-channel-setup.adoc:58
 msgid ""
 "In the {productname} {webui}, select the client from menu:Systems[Overview], "
 "navigate to the menu:Software[Manage > Channels] tab, and select "
-"[systemitem]``dev-sles15-sp{sp-vert}-updates-x86_64``.  Navigate to the "
-"[guimenu]``Patches`` tab, and click btn:[List/Remove Patches]."
+"[systemitem]``dev-sles15-sp{sp-vert}-updates-x86_64``."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/live-patching-channel-setup.adoc:59
+msgid ""
+"Navigate to the [guimenu]``Patches`` tab, and click btn:[List/Remove "
+"Patches]."
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,19 +101,31 @@ msgid "There are two parameters used to configure content staging:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/content-staging.adoc:48
+#: ./modules/administration/pages/content-staging.adoc:47
 msgid ""
 "[parameter]``salt_content_staging_advance`` is the advance time for the "
-"content staging window to open, in hours.  This is the number of hours "
-"before installation starts, that package downloads can begin."
+"content staging window to open, in hours."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/content-staging.adoc:48
+msgid ""
+"This is the number of hours before installation starts, that package "
+"downloads can begin."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/content-staging.adoc:49
+msgid ""
+"[parameter]``salt_content_staging_window`` is the duration of the content "
+"staging window, in hours."
 msgstr ""
 
 #. type: Plain text
 #: ./modules/administration/pages/content-staging.adoc:50
 msgid ""
-"[parameter]``salt_content_staging_window`` is the duration of the content "
-"staging window, in hours.  This is the amount of time clients have to stage "
-"packages before installation begins."
+"This is the amount of time clients have to stage packages before "
+"installation begins."
 msgstr ""
 
 #. type: Plain text

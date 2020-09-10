@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,11 +103,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/channel-management.adoc:39
+#: ./modules/administration/pages/channel-management.adoc:38
 msgid ""
 "Locate the [guimenu]``Per-User Subscription Restrictions`` section and check "
 "[guimenu]``Only selected users within your organization may subscribe to "
-"this channel``.  Click btn:[Update] to save the changes."
+"this channel``."
+msgstr ""
+
+#. type: Plain text
+#: ./modules/administration/pages/channel-management.adoc:39
+msgid "Click btn:[Update] to save the changes."
 msgstr ""
 
 #. type: Plain text

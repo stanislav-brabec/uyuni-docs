@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: 2020-08-23 23:30+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -74,34 +74,52 @@ msgid "In addition, be aware of these considerations:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/public-cloud.adoc:30
+#: modules/administration/pages/public-cloud.adoc:28
 msgid ""
 "The {productname} setup procedure performs a forward-confirmed reverse DNS "
-"lookup.  This must succeed in order for the setup procedure to complete "
-"successfully and for {productname} to operate as expected.  Therefore, it is "
-"important to perform hostname and IP configuration prior to running the "
-"{productname} setup procedure."
+"lookup."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:30
+msgid ""
+"This must succeed in order for the setup procedure to complete successfully "
+"and for {productname} to operate as expected.  Therefore, it is important to "
+"perform hostname and IP configuration prior to running the {productname} "
+"setup procedure."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:31
+msgid ""
+"{productname} Server and Proxy instances are expected to run in a network "
+"configuration that provides you control over DNS entries, but cannot access "
+"the wider internet."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/public-cloud.adoc:34
 msgid ""
-"{productname} Server and Proxy instances are expected to run in a network "
-"configuration that provides you control over DNS entries, but cannot access "
-"the wider internet.  Within this network configuration DNS resolution must "
-"be provided: `hostname -f` must return the fully-qualified domain name "
-"(FQDN).  DNS resolution is also important for connecting clients.  DNS is "
-"dependent on the cloud framework you choose, refer to the cloud service "
-"provider documentation for detailed instructions."
+"Within this network configuration DNS resolution must be provided: `hostname "
+"-f` must return the fully-qualified domain name (FQDN).  DNS resolution is "
+"also important for connecting clients.  DNS is dependent on the cloud "
+"framework you choose, refer to the cloud service provider documentation for "
+"detailed instructions."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:35
+msgid ""
+"We recommend that you locate software repositories, the server database, and "
+"the proxy squid cache on an external virtual disk."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/public-cloud.adoc:37
 msgid ""
-"We recommend that you locate software repositories, the server database, and "
-"the proxy squid cache on an external virtual disk.  This prevents data loss "
-"if the instance is unexpectedly terminated.  Instructions for setting up an "
-"external virtual disk are contained in this section."
+"This prevents data loss if the instance is unexpectedly terminated.  "
+"Instructions for setting up an external virtual disk are contained in this "
+"section."
 msgstr ""
 
 #. type: Title ==
@@ -192,10 +210,14 @@ msgid "DHCLIENT_SET_HOSTNAME=\"no\"\n"
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:76
+msgid "Set the hostname locally with the [command]``hostnamectl`` command."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/public-cloud.adoc:78
 msgid ""
-"Set the hostname locally with the [command]``hostnamectl`` command.  Ensure "
-"you use the system name, not the FQDN.  For example, if the FQDN is "
+"Ensure you use the system name, not the FQDN.  For example, if the FQDN is "
 "[path]``system_name.example.com``, the system name is [path]``system_name``, "
 "and the domain name is [path]``example.com``."
 msgstr ""
@@ -207,12 +229,17 @@ msgid "# hostnamectl set-hostname system_name\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/public-cloud.adoc:84
+#: modules/administration/pages/public-cloud.adoc:83
 msgid ""
 "Create a DNS entry in your network environment for domain name resolution, "
-"or force correct resolution by editing the [path]``/etc/hosts`` file.  You "
-"can find the IP address by checking your public cloud web console, or from "
-"the command line:"
+"or force correct resolution by editing the [path]``/etc/hosts`` file."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:84
+msgid ""
+"You can find the IP address by checking your public cloud web console, or "
+"from the command line:"
 msgstr ""
 
 #. type: Plain text
@@ -452,11 +479,17 @@ msgid "/usr/sbin/configure-proxy.sh\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/public-cloud.adoc:194
+#: modules/administration/pages/public-cloud.adoc:193
 msgid ""
 "When the script has completed, {productname} should be functional and "
-"running.  For {productname} Server, the setup process created an "
-"administrator user with this user name:"
+"running."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:194
+msgid ""
+"For {productname} Server, the setup process created an administrator user "
+"with this user name:"
 msgstr ""
 
 #. type: Plain text
@@ -568,14 +601,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/public-cloud.adoc:261
+#: modules/administration/pages/public-cloud.adoc:260
 msgid ""
 "Provision a disk device in the public cloud environment, refer to the cloud "
 "service provider documentation for detailed instructions. The size of the "
 "disk is dependent on the number of distributions and channels you intend to "
-"manage with {productname}.  For sizing information refer to https://www.suse."
-"com/support/kb/doc.php?id=7015050[SUSE Manager sizing examples]. A rule of "
-"thumb is 25 GB per distribution per channel."
+"manage with {productname}."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:261
+msgid ""
+"For sizing information refer to https://www.suse.com/support/kb/doc.php?"
+"id=7015050[SUSE Manager sizing examples]. A rule of thumb is 25 GB per "
+"distribution per channel."
 msgstr ""
 
 #. type: Plain text
@@ -681,11 +720,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/public-cloud.adoc:305
+#: modules/administration/pages/public-cloud.adoc:304
 msgid ""
 "On traditional clients, stop the [command]``rhnsd`` daemon with [command]``/"
 "etc/init.d/rhnsd stop`` or, on newer systemd-based systems, with "
-"[command]``service rhnsd stop``.  Then [command]``service osad stop``."
+"[command]``service rhnsd stop``."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/public-cloud.adoc:305
+msgid "Then [command]``service osad stop``."
 msgstr ""
 
 #. type: Plain text

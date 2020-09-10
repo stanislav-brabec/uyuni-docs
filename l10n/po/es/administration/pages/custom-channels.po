@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,21 +109,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:43
+#: modules/administration/pages/custom-channels.adoc:42
 msgid ""
 "On the [guimenu]``Create Software Channel`` page, give your channel a name "
 "(for example, [systemitem]``My Tools SLES 15 SP1 x86_64``) and a label (for "
-"example, [systemitem]``my-tools-sles15sp1-x86_64``).  Labels must not "
-"contain spaces or uppercase letters."
+"example, [systemitem]``my-tools-sles15sp1-x86_64``)."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:43
+msgid "Labels must not contain spaces or uppercase letters."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:44
+msgid ""
+"In the [guimenu]``Parent Channel`` drop down, choose the relevant base "
+"channel (for example, [systemitem]``SLE-Product-SLES15-SP1-Pool for "
+"x86_64``)."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/custom-channels.adoc:45
-msgid ""
-"In the [guimenu]``Parent Channel`` drop down, choose the relevant base "
-"channel (for example, [systemitem]``SLE-Product-SLES15-SP1-Pool for "
-"x86_64``).  Ensure that you choose the compatible parent channel for your "
-"packages."
+msgid "Ensure that you choose the compatible parent channel for your packages."
 msgstr ""
 
 #. type: Plain text
@@ -176,12 +184,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:64
+#: modules/administration/pages/custom-channels.adoc:63
 msgid ""
 "In the [guimenu]``Repository URL`` field, provide the path to the directory "
 "that contains the [path]``repodata`` file (for example, "
-"[systemitem]``file:///opt/mytools/``).  You can use any valid addressing "
-"protocol in this field."
+"[systemitem]``file:///opt/mytools/``)."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:64
+msgid "You can use any valid addressing protocol in this field."
 msgstr ""
 
 #. type: Plain text
@@ -223,11 +235,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:75
+#: modules/administration/pages/custom-channels.adoc:74
 msgid ""
 "Navigate to the [guimenu]``Sync`` tab and click btn:[Sync Now] to "
-"synchronize immediately.  You can also set an automated synchronization "
-"schedule on this tab."
+"synchronize immediately."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:75
+msgid "You can also set an automated synchronization schedule on this tab."
 msgstr ""
 
 #. type: Plain text
@@ -237,20 +253,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:81
+#: modules/administration/pages/custom-channels.adoc:80
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Setup Wizard] and "
-"select the [guimenu]``Products`` tab.  This dialog displays a completion bar "
-"for each product when they are being synchronized."
+"select the [guimenu]``Products`` tab."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:81
+msgid ""
+"This dialog displays a completion bar for each product when they are being "
+"synchronized."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:82
+msgid ""
+"In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
+"then click the channel associated to the repository."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/custom-channels.adoc:84
 msgid ""
-"In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
-"then click the channel associated to the repository.  Navigate to the menu:"
-"[Repositories > Sync] tab.  The [guimenu]``Sync Status`` is shown next to "
-"the repository name.."
+"Navigate to the menu:[Repositories > Sync] tab.  The [guimenu]``Sync "
+"Status`` is shown next to the repository name.."
 msgstr ""
 
 #. type: Plain text
@@ -286,11 +313,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:99
+#: modules/administration/pages/custom-channels.adoc:98
 msgid ""
 "On the [guiemnu]``Details`` tab, in the [guimenu]``Child Channels`` listing, "
-"select the channel to associate.  You can select multiple channels, if you "
-"need to."
+"select the channel to associate."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:99
+msgid "You can select multiple channels, if you need to."
 msgstr ""
 
 #. type: Plain text
@@ -368,12 +399,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:121
+#: modules/administration/pages/custom-channels.adoc:120
 msgid ""
 "OPTIONAL: You can compare the packages in the current channel with those in "
 "a different channel by navigating to menu:Software[Manage > Channels], and "
-"going to the menu:Packages[Compare] tab.  To make the two channels the same, "
-"click the btn:[Merge Differences] button, and resolve any conflicts."
+"going to the menu:Packages[Compare] tab."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/custom-channels.adoc:121
+msgid ""
+"To make the two channels the same, click the btn:[Merge Differences] button, "
+"and resolve any conflicts."
 msgstr ""
 
 #. type: Block title

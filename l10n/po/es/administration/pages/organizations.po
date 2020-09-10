@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-10 12:54+0200\n"
+"POT-Creation-Date: 2020-09-10 17:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,29 +80,45 @@ msgid "In the [guimenu]``Create Organization`` dialog, complete these fields:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/organizations.adoc:29
+#: modules/administration/pages/organizations.adoc:28
 msgid ""
 "In the [guimenu]``Organization Name`` field, type a name for your new "
-"organization.  The name should be between 3 and 128 characters long."
+"organization."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/organizations.adoc:29
+msgid "The name should be between 3 and 128 characters long."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/organizations.adoc:30
+msgid ""
+"In the [guimenu]``Desired Login`` field, type the login name you want to use "
+"for the organization's administrator."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/organizations.adoc:31
 msgid ""
-"In the [guimenu]``Desired Login`` field, type the login name you want to use "
-"for the organization's administrator.  This must be a new administrator "
-"account, you will not be able to use an existing administrator account to "
-"sign in to the new organization, including the one you are currently signed "
-"in with."
+"This must be a new administrator account, you will not be able to use an "
+"existing administrator account to sign in to the new organization, including "
+"the one you are currently signed in with."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/organizations.adoc:32
+msgid ""
+"In the [guimenu]``Desired Password`` field, type a password for the new "
+"organization's administrator."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/organizations.adoc:34
 msgid ""
-"In the [guimenu]``Desired Password`` field, type a password for the new "
-"organization's administrator.  Confirm the password by typing it again in "
-"the [guimenu]``Confirm Password`` field.  Password strength is indicated by "
-"the colored bar beneath the password fields."
+"Confirm the password by typing it again in the [guimenu]``Confirm Password`` "
+"field.  Password strength is indicated by the colored bar beneath the "
+"password fields."
 msgstr ""
 
 #. type: Plain text
@@ -271,15 +287,24 @@ msgid "Use the search feature to locate a channel by name."
 msgstr ""
 
 #. type: Plain text
+#: modules/administration/pages/organizations.adoc:101
+msgid "Check the channel to be applied and click btn:[Save Changes]."
+msgstr ""
+
+#. type: Plain text
 #: modules/administration/pages/organizations.adoc:102
 msgid ""
-"Check the channel to be applied and click btn:[Save Changes].  This saves to "
-"the database, but does not apply the changes to the channel."
+"This saves to the database, but does not apply the changes to the channel."
+msgstr ""
+
+#. type: Plain text
+#: modules/administration/pages/organizations.adoc:103
+msgid "Apply the changes by clicking btn:[Apply]."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/organizations.adoc:103
 msgid ""
-"Apply the changes by clicking btn:[Apply].  This schedules the task to apply "
-"the changes to all clients within the organization."
+"This schedules the task to apply the changes to all clients within the "
+"organization."
 msgstr ""

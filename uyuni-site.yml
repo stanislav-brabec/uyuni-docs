@@ -137,9 +137,9 @@ ui:
     snapshot: true
 
   # Modify the custom branding depending on your publishing endpoint
-  # uyuni-webui (All Uyuni endpoints)
+  # webui-branding-2020-update (All Uyuni endpoints)
 
-  supplemental_files: ./branding/supplemental-ui/uyuni/uyuni-webui
+  supplemental_files: ./branding/supplemental-ui/uyuni/webui-branding-2020-update
 
 output:
   dir: ./build/en

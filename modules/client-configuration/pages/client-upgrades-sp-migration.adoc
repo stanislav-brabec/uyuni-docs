@@ -2,6 +2,7 @@
 = Service Pack Migration
 
 Service Pack Migration (SP Migration) allows you to upgrade SLE-based client systems from an SP level to a later one.
+SP Migration also supports upgrading openSUSE Leap 15.1 and later.
 
 [WARNING]
 ====
@@ -17,7 +18,7 @@ For supported {sle} upgrade paths, see https://documentation.suse.com/sles/15-SP
 [IMPORTANT]
 ====
 Service pack migration is for upgrading within the same major version.
-You can not use SP migration to migrate from {sle}{nbsp}12 to {sle}{nbsp}15.
+For example, you can not use SP migration to migrate from {sle}{nbsp}12 to {sle}{nbsp}15.
 For more information about major upgrades, see xref:client-configuration:client-upgrades-major.adoc[].
 ====
 

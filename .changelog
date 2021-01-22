@@ -4,8 +4,9 @@
 # - Fixed error in Bat section of Upgrade Guide (bsc#1234567)
 # For guidelines: https://en.opensuse.org/openSUSE:Creating_a_changes_file_(RPM)#Changelog_section_.28.25changelog.29
 
-# Last packaged: 2021-01-13
+# Last packaged: 2021-01-22
 
+- Corrected name of unresolved include (bsc#1181129)
 - Fixed error in Create and Replace CA and Server Certificates of Administration Guide (bsc#1180001)
 - Fixed package name and command in Troubleshooting Renaming Server section of the Administration Guide (bsc#1179171)
 - Added documentation on replacing a proxy server in the Installation Guide (bsc#1179438)

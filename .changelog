@@ -4,7 +4,7 @@
 # - Fixed error in Bat section of Upgrade Guide (bsc#1234567)
 # For guidelines: https://en.opensuse.org/openSUSE:Creating_a_changes_file_(RPM)#Changelog_section_.28.25changelog.29
 
-# Last packaged: 2020-11-27
+# Last packaged: 2021-01-26
 
 - Adds openSUSE Leap SP migration to the SP migration section of the Client
   Configuration Guide
